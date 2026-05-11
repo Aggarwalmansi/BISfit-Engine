@@ -77,10 +77,9 @@ class QueryResponse(BaseModel):
 # ---------------------------------------------------------------------------
 # Endpoints
 # ---------------------------------------------------------------------------
-@app.route("/health", methods=["GET", "HEAD"])
-def health():
-    return "OK"
-
+@app.api_route("/health", methods=["GET", "HEAD"])
+async def health():
+    return {"status": "ok"}
 
 @app.post("/query", response_model=QueryResponse)
 async def query_endpoint(body: QueryRequest):
