@@ -77,9 +77,9 @@ class QueryResponse(BaseModel):
 # ---------------------------------------------------------------------------
 # Endpoints
 # ---------------------------------------------------------------------------
-@app.get("/health")
-async def health():
-    return {"status": "ok", "pipeline_ready": rag is not None}
+@app.route("/health", methods=["GET", "HEAD"])
+def health():
+    return "OK"
 
 
 @app.post("/query", response_model=QueryResponse)
