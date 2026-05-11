@@ -102,10 +102,14 @@ async def query_endpoint(body: QueryRequest):
 # ---------------------------------------------------------------------------
 # Serve the frontend static files
 # ---------------------------------------------------------------------------
-frontend_dir = os.path.join(os.path.dirname(__file__), "frontend")
+frontend_dir = os.path.join(os.path.dirname(__file__), "frontend", "dist")
 if os.path.isdir(frontend_dir):
-    app.mount("/static", StaticFiles(directory=os.path.join(frontend_dir, "static")), name="static")
+    app.mount("/assets", StaticFiles(directory=os.path.join(frontend_dir, "assets")), name="assets")
 
     @app.get("/", response_class=FileResponse)
     async def serve_frontend():
         return FileResponse(os.path.join(frontend_dir, "index.html"))
+
+    @app.get("/favicon.svg", response_class=FileResponse)
+    async def serve_favicon():
+        return FileResponse(os.path.join(frontend_dir, "favicon.svg"))
