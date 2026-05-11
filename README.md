@@ -24,7 +24,7 @@
 
 ---
 
-🏆 **Hackathon Winner** — Built for the Indian construction and engineering community
+— Built for the Indian construction and engineering community
 
 *"Ask anything about Indian Standards for building materials — and get accurate, cited, hallucination-resistant answers in under 2 seconds."*
 
@@ -32,7 +32,7 @@
 
 ---
 
-## 🏆 About This Project
+## About This Project
 
 **BISfit Engine** is the upgraded, production-grade evolution of BISfit — a four-layer Retrieval-Augmented Generation (RAG) system grounded entirely in **SP 21 : 2005**, the Bureau of Indian Standards handbook covering **580 Indian Standards** across **27 categories** of building materials.
 
@@ -55,7 +55,7 @@ The original BISfit had a vanilla HTML/CSS/JS frontend. BISfit Engine upgrades i
 
 ---
 
-## ✅ Proven Performance
+## Proven Performance
 
 All three evaluation targets exceeded on the public benchmark (10 queries, `public_test_set.json`):
 
@@ -79,7 +79,7 @@ All three evaluation targets exceeded on the public benchmark (10 queries, `publ
 
 ---
 
-## 🏗️ System Architecture
+## System Architecture
 
 BISfit Engine runs in two fully decoupled phases:
 
@@ -129,7 +129,7 @@ BISfit Engine runs in two fully decoupled phases:
 
 ---
 
-## 🛠️ Technology Stack
+## Technology Stack
 
 | Layer | Technology | Role |
 |-------|-----------|------|
@@ -158,7 +158,7 @@ Groq LPU                ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓�
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 BISfit-Engine/
@@ -198,7 +198,7 @@ BISfit-Engine/
 
 ---
 
-## 🧩 Chunk Schema
+## Chunk Schema
 
 Every entry in `data/rag_chunks.json` follows this structure. The separation of `text_to_embed` and `content_only` is a core design decision — the IS number and title live inside the vector (enabling both exact and semantic retrieval), while only clean prose is sent to the LLM:
 
@@ -226,7 +226,7 @@ Every entry in `data/rag_chunks.json` follows this structure. The separation of 
 
 ---
 
-## 📦 Data Source
+## Data Source
 
 | Field | Value |
 |-------|-------|
@@ -260,7 +260,7 @@ Every entry in `data/rag_chunks.json` follows this structure. The separation of 
 
 ---
 
-## 🚀 Installation
+## Installation
 
 ```bash
 # 1. Clone the repository
@@ -292,7 +292,7 @@ uvicorn>=0.30.0
 
 ---
 
-## ⚙️ Environment Setup
+## Environment Setup
 
 > ⚠️ **Complete this before running anything.** BISfit Engine uses **3 separate Groq API keys** in round-robin rotation to stay within rate limits during batch inference.
 
@@ -344,7 +344,7 @@ Each query uses the next key in sequence — **3× effective rate-limit headroom
 
 ---
 
-## ▶️ Running the Pipeline
+## Running the Pipeline
 
 ### Phase 1 — Build the FAISS Index *(one-time only)*
 
@@ -419,7 +419,7 @@ print(result["latency_seconds"])      # e.g. 1.71
 
 ---
 
-## 📊 Evaluation
+## Evaluation
 
 ```bash
 # Step 1: Run batch inference against the benchmark
@@ -444,7 +444,7 @@ Results are written to `data/public_test_results.json`:
 
 ---
 
-## 🔒 Security
+## Security
 
 ```
 .env              ← Never commit — API keys are invalidated immediately if exposed
@@ -460,7 +460,7 @@ data/faiss_index.bin ← Git-ignored (pre-built index committed separately)
 
 ---
 
-## 👥 Who Is It For?
+## Who Is It For?
 
 | User | Example Query |
 |------|--------------|
@@ -472,7 +472,7 @@ data/faiss_index.bin ← Git-ignored (pre-built index committed separately)
 
 ---
 
-## 📄 Further Documentation
+## Further Documentation
 
 - [`SOLUTION.md`](./SOLUTION.md) — Full architecture, design decisions, pipeline detail, and evaluation methodology
 - [`presentation.pdf`](./presentation.pdf) — Project presentation deck
