@@ -113,6 +113,6 @@ def parse_pdf(pdf_path: str) -> List[Dict[str, Any]]:
 
 if __name__ == "__main__":
     # Test block
-    sections = parse_pdf("../../data/dataset.pdf")
+    sections = parse_pdf("../../data/bis_dataset.pdf")
     for sec in sections[:2]:
         print(sec['clause_reference'], sec['section_type'])
