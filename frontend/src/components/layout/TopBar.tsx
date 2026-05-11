@@ -13,7 +13,7 @@ export default function TopBar() {
           <div className="absolute w-[4px] h-[4px] bg-[#0A0E1A] rounded-full" />
         </div>
         <span className="font-display font-bold text-[20px] tracking-wider text-white">
-          BIS<span className="text-blue-500 mx-1">·</span>VERIFY
+          BIS<span className="text-blue-500 mx-1">·</span>ENGINE
         </span>
       </div>
 

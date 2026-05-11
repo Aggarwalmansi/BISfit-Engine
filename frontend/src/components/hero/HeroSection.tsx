@@ -59,7 +59,7 @@ export default function HeroSection() {
       {/* How it Works Dashboard */}
       <div className="w-full max-w-4xl mt-32 text-left bg-[#151D35] border border-white/10 rounded-2xl p-8 md:p-12 shadow-[0_8px_32px_rgba(0,0,0,0.3)] animate-fadeUp [animation-delay:500ms]">
         <h2 className="font-display text-[28px] md:text-[32px] font-bold text-white mb-10 text-center">
-          How <span className="text-blue-500">BIS·VERIFY</span> Works
+          How <span className="text-blue-500">BIS·ENGINE</span> Works
         </h2>
         
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
