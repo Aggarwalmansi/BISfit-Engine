@@ -7,10 +7,10 @@
         ],
         "retrieved_standards": [
             "IS 269:1989",
-            "IS 269:2015"
+            "IS 4032:1985"
         ],
-        "response": "The BIS standard that covers the chemical and physical requirements for 33 Grade Ordinary Portland Cement is IS 269 : 1989. This standard outlines the requirements for the manufacture, chemical composition, and physical properties of 33 grade ordinary Portland cement. Additionally, IS 269 : 2015 also covers the requirements for 33 grade ordinary Portland cement, providing a unified standard for various grades of ordinary Portland cement.",
-        "latency_seconds": 2.4439
+        "response": "The BIS standard that covers the chemical and physical requirements for 33 Grade Ordinary Portland Cement is IS 269 : 1989. This standard outlines the requirements for the manufacture, chemical composition, and physical properties of 33 grade ordinary Portland cement, including initial and final setting times, compressive strength, and other physical requirements.",
+        "latency_seconds": 2.7931
     },
     {
         "id": "PUB-02",
@@ -22,8 +22,8 @@
             "IS 383:1970",
             "IS 383:2016"
         ],
-        "response": "To comply with the regulations for coarse and fine aggregates derived from natural sources intended for use in structural concrete, one should refer to IS 383:1970, which outlines the requirements for aggregates, crushed or uncrushed, derived from natural sources for use in the production of structural concrete. Additionally, IS 383:2016 provides updated guidelines, including maximum utilization limits for coarse aggregates and requirements for manufactured aggregates. The standards specify that aggregates shall consist of naturally occurring stones, gravel, and sand, and shall be hard, strong, dense, and durable. The aggregate impact value and aggregate abrasion value are also specified, with limits of 30 percent by weight for concrete for wearing surfaces and 45 percent by weight for other concrete. Furthermore, IS 383:2016 provides deleterious material limits, including clay lumps and friable particles, material finer than 75 micron sieve, and mica content. Other standards, such as IS 9142:1979 and IS 6579:1981, provide requirements for artificial lightweight aggregates and coarse aggregates for WBM construction, respectively, but are not directly applicable to natural aggregates for structural concrete.",
-        "latency_seconds": 1.7809
+        "response": "To comply with the regulations for coarse and fine aggregates derived from natural sources intended for use in structural concrete, you should refer to IS 383 : 1970 and IS 383 : 2016. According to IS 383 : 1970, aggregates shall consist of naturally occurring stones, gravel, and sand, and shall be hard, strong, dense, and durable. The aggregate impact value shall not exceed 30 percent by weight for concrete for wearing surfaces and 45 percent by weight for other concrete. The aggregate abrasion value shall not exceed 30 percent for concrete for wearing surfaces and 50 percent for other concrete. IS 383 : 2016 expands on these requirements and provides additional guidelines for manufactured aggregates. It also specifies deleterious material limits, such as clay lumps and friable particles, material finer than 75 micron sieve, and mica content. The mechanical requirements, including aggregate impact value and Los Angeles abrasion value, are also specified in IS 383 : 2016.",
+        "latency_seconds": 1.6543
     },
     {
         "id": "PUB-03",
@@ -34,8 +34,8 @@
         "retrieved_standards": [
             "IS 458:2003"
         ],
-        "response": "The official specification for manufacturing precast concrete pipes, both with and without reinforcement, for water mains is outlined in IS 458 : 2003. This standard covers the requirements for reinforced and unreinforced precast cement concrete pipes used for water mains, sewers, culverts, and irrigation, including the classification and requirements for collars. The other documents provided do not specifically address the manufacturing of precast concrete pipes for water mains.",
-        "latency_seconds": 1.4769
+        "response": "The official specification for manufacturing precast concrete pipes, both with and without reinforcement, for water mains is outlined in IS 458 : 2003. This standard covers the requirements for reinforced and unreinforced precast cement concrete pipes used for water mains, sewers, culverts, and irrigation. It includes details on scope, classification, and requirements for collars.",
+        "latency_seconds": 1.5535
     },
     {
         "id": "PUB-04",
@@ -44,17 +44,10 @@
             "IS 2185 (Part 2): 1983"
         ],
         "retrieved_standards": [
-            "IS 2185 (PART 2):1983",
-            "IS 2185 (PART 1):1979",
-            "IS 12440:1988",
-            "IS 100",
-            "IS 1124:1974",
-            "IS 3620:1979",
-            "IS 1121(PART 1):1974",
-            "IS 1127:1970"
+            "IS 2185 (PART 2):1983"
         ],
-        "response": "Error generating response.",
-        "latency_seconds": 0.8035
+        "response": "The standard that outlines the dimensions and physical requirements for hollow and solid lightweight concrete masonry blocks is IS 2185 (Part 2): 1983. This standard covers the requirements for lightweight concrete masonry building units used in the construction of load-bearing and non-load bearing walls, including hollow and solid load-bearing concrete blocks, and hollow and solid non-load bearing concrete blocks. The dimensions and tolerances for these blocks are specified in the standard, including nominal dimensions for length, height, and width, as well as tolerances for actual dimensions.",
+        "latency_seconds": 1.5428
     },
     {
         "id": "PUB-05",
@@ -63,16 +56,10 @@
             "IS 459: 1992"
         ],
         "retrieved_standards": [
-            "IS 5913:1989",
-            "IS 459:1992",
-            "IS 13000:1990",
-            "IS 5913:2003",
-            "IS 13008:1990",
-            "IS 1626:1984",
-            "IS 2096:1992"
+            "IS 459:1992"
         ],
-        "response": "Error generating response.",
-        "latency_seconds": 1.0697
+        "response": "The standard detailing corrugated and semi-corrugated asbestos cement sheets used for roofing and cladding is covered in IS 459 : 1992. This standard covers the requirements for corrugated and semi-corrigutated asbestos cement sheets, designed to provide structural weather exposed surfaces of roofs and building walls of industrial, residential, agricultural commercial and institutional types of buildings and for decorative and other purposes.",
+        "latency_seconds": 1.2453
     },
     {
         "id": "PUB-06",
@@ -81,20 +68,11 @@
             "IS 455: 1989"
         ],
         "retrieved_standards": [
-            "IS 4031",
-            "IS 4032:1985",
-            "IS 269:1989",
-            "IS 5",
-            "IS 12089:1987",
             "IS 455:1989",
-            "IS 12423:1988",
-            "IS 8112:1989",
-            "IS 8042:1989",
-            "IS 12269:1987",
-            "IS 8112:1991"
+            "IS 455:2015"
         ],
-        "response": "Error generating response.",
-        "latency_seconds": 1.3409
+        "response": "The Indian Standard covering the manufacture, chemical, and physical requirements for Portland slag cement is IS 455. This standard has been published in two versions: 1989 and 2015. IS 455 : 1989 covers the manufacture and chemical and physical requirements for Portland slag cement, while IS 455 : 2015 governs Portland Slag Cement (PSC) incorporating GGBS (blast furnace slag by-product).",
+        "latency_seconds": 1.0703
     },
     {
         "id": "PUB-07",
@@ -103,25 +81,10 @@
             "IS 1489 (Part 2): 1991"
         ],
         "retrieved_standards": [
-            "IS 4031",
-            "IS 4032:1985",
-            "IS 269:1989",
-            "IS 5",
-            "IS 1727:1967",
-            "IS 12269:1987",
-            "IS 8112:1991",
-            "IS 8112:1989",
-            "IS 1344:1981",
-            "IS 3812:1981",
-            "IS 1489 (PART 2):1991",
-            "IS 1489",
-            "IS 1489:PARTS 1 & 2",
-            "IS 6932 (PART 2):1973",
-            "IS 4098:1983",
-            "IS 1514:1990"
+            "IS 1489 (PART 2)"
         ],
-        "response": "Error generating response.",
-        "latency_seconds": 1.7516
+        "response": "The applicable standard for producing Portland pozzolana cement that is calcined clay based is IS 1489 (Part 2). This standard covers the manufacture, physical, and chemical requirements of Portland-pozzolana cement manufactured by using calcined clay pozzolana or a mixture of calcined clay and fly ash pozzolana.",
+        "latency_seconds": 1.3279
     },
     {
         "id": "PUB-08",
@@ -130,20 +93,10 @@
             "IS 3466: 1988"
         ],
         "retrieved_standards": [
-            "IS 4031",
-            "IS 4032:1985",
-            "IS 269:1989",
-            "IS 3812:1981",
-            "IS 1727:1967",
-            "IS 2185 (PART 1):1979",
-            "IS 2185 (PART 2):1983",
-            "IS 1344:1981",
-            "IS 1489 (PART 2):1991",
-            "IS 1489 (PART1):1991",
-            "IS 8042:1989"
+            "IS 3466:1988"
         ],
-        "response": "Error generating response.",
-        "latency_seconds": 1.751
+        "response": "The standard that applies to masonry cement used for general purposes where mortars for masonry are required, but not intended for structural concrete is IS 3466 : 1988. This standard outlines the requirements for masonry cement to be used for all general purposes where mortars for masonry are required, but it is not intended for use in structural concrete.",
+        "latency_seconds": 1.9235
     },
     {
         "id": "PUB-09",
@@ -152,22 +105,10 @@
             "IS 6909: 1990"
         ],
         "retrieved_standards": [
-            "IS 4031",
-            "IS 4032:1985",
-            "IS 3812:1981",
-            "IS 269:1989",
-            "IS 1727:1967",
-            "IS 1489 (PART1):1991",
-            "IS 6909:1990",
-            "IS 1489",
-            "IS 1489:PARTS 1 & 2",
-            "IS 1344:1981",
-            "IS 1489 (PART 2):1991",
-            "IS 16415:2015",
-            "IS 16415"
+            "IS 6909:1990"
         ],
-        "response": "Error generating response.",
-        "latency_seconds": 2.5205
+        "response": "The standard that details the composition, manufacture, and testing of supersulphated cement, particularly for marine works or aggressive water conditions, is IS 6909 : 1990. This standard covers the requirements for supersulphated cement (SSC) and its application in various aggressive conditions, including marine works, mass concrete jobs, and concrete construction in sulphate-bearing soils.",
+        "latency_seconds": 2.1009
     },
     {
         "id": "PUB-10",
@@ -176,23 +117,10 @@
             "IS 8042: 1989"
         ],
         "retrieved_standards": [
-            "IS 4031",
-            "IS 4032:1985",
-            "IS 269:1989",
-            "IS 5",
-            "IS 12269:1987",
-            "IS 8112:1991",
             "IS 8042:1989",
-            "IS 18189",
-            "IS 16415",
-            "IS 16715",
-            "IS 456:2000",
-            "IS 8112:1989",
-            "IS 12089:1987",
-            "IS 455:1989",
-            "IS 12423:1988"
+            "IS 269:1989"
         ],
-        "response": "Error generating response.",
-        "latency_seconds": 1.063
+        "response": "The standard that governs the physical and chemical requirements of White Portland cement for architectural and decorative purposes is IS 8042 : 1989. Additionally, the physical requirements of white Portland cement are also laid down in IS 269: 1989, except for the compressive strength of mortar.",
+        "latency_seconds": 1.5129
     }
 ]
